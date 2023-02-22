@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Deneme1Yazlab</string>
+    <string name="title_Memory">Memory Game</string>
+    <string name="menu_option_4x4_game">4x4 Game</string>
+    <string name="win_indicator">"------"</string>
+    <string name="countdown_timer">TIME :</string>
+    <string name="game_score">SKOR : 0</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sad">asd</string>
+    <string name="login_button">Login</string>
+    <string name="user_name">username</string>
+    <string name="register_button">Register</string>
+    <string name="email_input">E-mail</string>
+    <string name="register_username">username</string>
+    <string name="diff_4x4">4x4</string>
+    <string name="login_register_status">please login</string>
+    <string name="single_player">Tek Oyuncu</string>
+    <string name="mutli_player">Çok Oyuncu</string>
+    <string name="game_score_two">SKOR A : 0 - SKOR B : 0</string>
+    <string name="turn_time">SIRA : -</string>
+    <string name="time_two">"TIME : "</string>
+    <string name="score_two">SKOR A : 0 - SKOR B : 0</string>
+    <string name="turn_indicator">SIRA : -</string>
+    <string name="player_turn_indicator">SIRA : -</string>
+    <string name="diff_2x2">2X2</string>
+    <string name="diff_6x6">6X6</string>
+    <string name="diff_choose">ZORLUK SEVİYESİ</string>
+</resources>

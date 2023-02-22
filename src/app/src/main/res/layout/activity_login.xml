@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/email_register_field"
+        android:layout_width="263dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/username_register_field"
+        android:layout_width="260dp"
+        android:layout_height="71dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password_register_field"
+        android:layout_width="262dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="233dp"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#CC1150"
+        android:onClick="registerButton"
+        android:text="@string/register_button" />
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="236dp"
+        android:layout_height="68dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="236dp"
+        android:layout_height="72dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="206dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="loginButton"
+        android:text="@string/login_button" />
+
+    <TextView
+        android:id="@+id/login_register_status"
+        android:layout_width="399dp"
+        android:layout_height="61dp"
+        android:layout_margin="5dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/login_register_status"
+        android:textAlignment="center"
+        android:textColor="#FB0404"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#91B2CC"
+        android:onClick="changePassword"
+        android:text="Change Password" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/win_indicator"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/countdown_timer"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/score_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/game_score"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/player_turn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/player_turn_indicator"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <GridLayout
+        android:id="@+id/grid_layout_4x4"
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:columnCount="6"
+        android:rowCount="6"
+        android:textAlignment="center"
+        tools:context=".Game4x4Activity">
+
+    </GridLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
+        android:onClick="pauseMusic"
+        android:text="ToggleButton"
+        android:textOff="Music: ON"
+        android:textOn="Music: OFF" />
+
+</LinearLayout>
+
+
+

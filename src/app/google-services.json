@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "499978801498",
+    "project_id": "card-game-163d3",
+    "storage_bucket": "card-game-163d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499978801498:android:a89d375a3f86fe79e3e363",
+        "android_client_info": {
+          "package_name": "com.example.deneme1yazlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499978801498-uded4ul1d0dfiijb87uhfm4ikbh7v9ql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP3addE63QGCRfCb-QMHSYMj7FQYiBeM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499978801498-uded4ul1d0dfiijb87uhfm4ikbh7v9ql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
